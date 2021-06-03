@@ -53,7 +53,8 @@ select {
   align-items: center;
 }
 .select_div::after {
-  content: "\25bc";
+  content: "\2022";
+  font-size: 25px;
   color: red;
   position: absolute;
   pointer-events: none;
