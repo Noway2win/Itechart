@@ -1,4 +1,13 @@
 /* For inputs */
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+form > *{
+  margin-top: 10px;
+}
 .styled_checkbox {
   opacity: 0;
 }
@@ -53,8 +62,7 @@ select {
   align-items: center;
 }
 .select_div::after {
-  content: "\2022";
-  font-size: 25px;
+  content: "\2B07";
   color: red;
   position: absolute;
   pointer-events: none;
